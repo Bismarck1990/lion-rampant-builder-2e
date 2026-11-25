@@ -30,10 +30,3 @@ Point costs and short-form data were checked against **Lion Rampant Second Editi
 This is an **MVP** and not an official or comprehensive digital rules reference. It omits many optional scenario rules, randomly determined leader traits, and house-rule customization. Check published rules for gameplay procedures and clarify optional rule use with an opponent. The prototype has not undergone a full unit-by-unit competitive playtest.
 
 The Dragon Rampant Builder by dickloraine (`https://github.com/dickloraine/dragon-rampant-builder`, MIT licence) was examined as a technical reference. This particular prototype is a **standalone implementation**, not a compiled fork of that React repository. A subsequent version could migrate these Lion Rampant 2e datasets into the original React/Redux structure to reuse its more advanced custom-data editor, PWA installation, and backup features.
-
-
-## Free web hosting with GitHub Pages
-
-Create a public repository named `lion-rampant-builder` on GitHub. Upload `index.html` (and optionally this README) directly to the repository root, not inside a subfolder. In Settings → Pages, choose Deploy from a branch, then `main` and `/ (root)` and Save. The Pages settings display the public URL when published. Update the site by replacing `index.html` in the same branch. No build command or backend is needed.
-
-Browser saves are specific to the site's origin. Export existing local warbands to JSON before moving to the website, then import and save them there. The site is unofficial; review permission to publish game-specific material publicly before sharing.
